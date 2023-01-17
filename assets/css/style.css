@@ -7,6 +7,10 @@
 }
 /* Variable */
 
+:root {
+    --bigBorderCircleBackground: 4px solid #4d4d4d;
+    --smallBorderCircleBackground: 2px solid #4d4d4d; 
+}
 
 main {
     background-color: #363636;
@@ -16,7 +20,7 @@ main {
     justify-content: center;
 }
 #containerMain {
-    width: 60vw;
+    width: 65vw;
     height: 45vw;
     background-color: white;
 }
