@@ -250,3 +250,7 @@ svg {
 #point5 {
     color: var(--color1Circle);
 }
+#canvas {
+    width: 15vw;
+    height: 20vh;
+}
