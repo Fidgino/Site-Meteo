@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de la météo</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/ddf016fd89.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -50,7 +51,45 @@
                 stroke="#575757" />
         </svg>
         <div id="containerMain">
-
+            <div id="containerMainLeft">
+                <div id="containerInputText">
+                    <i class="fa-solid fa-temperature-three-quarters"></i>
+                    <input type="text" placeholder="Recherchez une ville">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div id="whiteBar"></div>
+                <div id="containerTemperatureLeft">
+                    <p>20°</p>
+                    <div id="containerIconDegree">
+                        <p>+</p>
+                        <p>/</p>
+                        <p>_</p>
+                    </div>  
+                    <p>3</p>
+                    <p>9.8%</p>
+                    <p>Wind: WSM 6 mph</p>
+                </div>
+                <div id="containerAlert">
+                    <div class="containerChildAlert">
+                        <div id="coloredCircle">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                        <p class="subtitleContainerAlert">Safe</p>
+                        <p><span>•</span>0.00% - 0.9%</p>
+                        <p><span>•</span>0.9% - 11%</p>
+                    </div>
+                    <div class="containerChildAlert">
+                        <p id="titleContainerAlert"><span>•</span>0.8%</p>
+                        <p class="subtitleContainerAlert">Dangerous</p>
+                        <p><span>•</span>12% - 38%</p>
+                        <p><span>•</span>39% - 90%</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="./assets/js/script.js"></script>
